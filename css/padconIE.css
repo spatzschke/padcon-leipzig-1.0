@@ -1,0 +1,7 @@
+#navigationSidebar, #infoSidebar { 
+	padding-top: 0px; 
+}
+
+#mainContent {
+	zoom: 1; padding-top: 0px; 
+}

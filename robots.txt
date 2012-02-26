@@ -1,0 +1,11 @@
+User-agent:EmailCollector
+Disallow: /
+
+User-agent: GagaRobot
+Disallow: /
+
+User-agent: Spider
+Disallow: 
+
+User-agent: *
+Disallow:

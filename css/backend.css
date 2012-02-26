@@ -1,0 +1,19 @@
+.content {
+	width: 100%;
+	border-bottom: solid 1px #c4c4c4;
+}
+.content h3 {
+	background: #e9e7e7 url(../images/arrow-square.gif) no-repeat right -51px;
+	padding: 10px 15px;
+	margin: 0;
+	font: bold 100%/50% Arial, Helvetica, sans-serif;
+	border: solid 1px #c4c4c4;
+	border-bottom: none;
+	cursor: pointer;
+}
+.content h3:hover {
+	background-color: #fff;
+}
+.content h3.active {
+	background-position: right 5px;
+}

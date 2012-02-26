@@ -1,0 +1,293 @@
+@charset "utf-8";
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	color: #000000;
+	background-color: #FFFFFF;
+	background-image:url(../img/bg.png);
+	background-repeat:repeat-x;
+}
+
+a{
+  color:#000000;
+text-decoration:none;
+}
+
+a:hover {
+ color:#999999;
+}
+
+a:active {
+  color:#999999;
+}
+
+s {
+  color:#F00;
+}
+
+input {
+	margin-top: 5px;
+	font-size: 11px;
+}
+
+#header {
+	padding: 35px 0 0 23px;
+	background-image:url(../img/header.png);
+	background-repeat:no-repeat;
+	height:159px;
+	width:840px;
+}
+
+#navigationSidebar {
+	float: left;
+	width: 186px;
+}
+
+#navigationSidebar a {
+	display:block;
+	color:#000000;
+	width:146px;
+	height:16px;
+	font-size:11px;
+	text-decoration:none;
+	text-align:left;
+	vertical-align:middle;
+	background-image:url(../img/button_set.png);
+	padding: 2px 20px;
+}
+#navigationSidebar a:hover {
+	display:block;
+     background-image:url(../img/button_set.png);
+	background-position: 0px 20px;
+
+}
+#navigationSidebar a:active {
+	display:block;
+     background-image:url(../img/button_set.png);
+	background-position: 0px 20px;
+}
+
+#search {
+	background-image:url(../img/searchBackground.png);
+	background-repeat: repeat-y;
+	height: 55px;
+	width: 170px;
+	padding-left: 15px;
+}
+
+#lineLeft {
+	
+}
+
+#container {
+	width: 840px;
+	margin: 0 auto;
+	border: 0px solid #000000;
+	text-align: left;
+	background-color: transparent;
+}
+
+#infoSidebar {
+	float: right;
+	width: 194px; 
+	padding-top: 20px;
+	font-size:10px;
+	background-image:url(../img/rightnav.png);
+	background-repeat:no-repeat;
+}
+
+#infoSidebar dd {
+	margin-left: 10px;
+}
+
+#infoSidebar .kontakte {
+	float: left;
+	padding-left: 20px;	
+}
+
+#infoSidebar .newsletter
+{
+	float: left;
+	padding: 39px 20px 0 20px;	
+}
+
+#lineRight {
+	margin-top: 15px;
+}
+
+#mainContent {
+	margin: 0 12em 0 12em;
+	font-size:12px;
+	height: 100%;
+	min-height: 400px;
+	background:#FFFFFF;
+	padding: 1px 65px 0 45px;
+}
+
+#mainContent select{
+	width: 275px;
+}
+
+#breadcrump {
+	font-size:10px;
+}
+
+#letterNavigation {
+	margin: 0 0 45px 0;
+}
+
+#letter {
+	display:block;
+	width:13px;	
+	height:17px;
+	margin-right: 4px;
+	float:left;
+	font-size:11px;
+}
+
+#letter a{
+	display:block;
+	color:#000000;
+	width:13px;	
+	height: 16px;
+	text-decoration:none;
+	background-image:url(../img/letterButton.png);
+	background-repeat:no-repeat;
+	text-align:center;
+	padding-top:1px;
+}
+
+#letter a:hover {
+	background-image:url(../img/letterButtonAct.png);
+	color:#999;
+}
+
+#letterl a:active{
+	background-image:url(img/letterButtonAct.png);
+	color:#999;
+}
+
+#grosseSpalte {
+	float:left;
+	width: 62%;
+	margin: 15px 0 0 10px;
+	height: 100%;
+}
+
+#kleineSpalte {
+	width: 35%;
+	float:left;
+	margin-top: 15px;
+}
+
+#zeile {
+	float:left;
+	width: 100%;
+	min-height: 50px;
+}
+
+#einspaltig {
+	padding: 10px 0 0 10px;
+	min-height: 145px;
+}
+
+#einspaltig hr{
+	margin-bottom: 10px;	
+}
+
+#einspaltig a {
+	margin-left: 10px;
+}
+
+#footer {
+	padding: 0 0px;
+	background-image:url(../img/fooder.png);
+	height:50px;
+	width:840px;
+	overflow:auto;
+	color:#000000;
+}
+
+#footer p {
+	margin: 0;
+	padding: 0px 0;
+}
+
+.center {
+	text-align:center;	
+}
+
+.justify {
+	text-align:justify;	
+}
+
+.rightalign {
+	text-align:right;	
+}
+
+.verticalAlign {
+	vertical-align:middle;	
+}
+
+.imageRightAlign {
+	float:right;
+	margin: 0 0 10px 10px;
+}
+
+.absatzGray {
+	margin-left: 20px;
+	color: #999;
+}
+
+.farbe {
+
+	border: 1px solid;	
+}
+.bezug {
+	float: left;
+}
+
+.clearfloat {
+	clear:both;
+	height:0;
+   	font-size: 1px;
+   	line-height: 0px;
+}
+
+.clearLeft {
+	clear:left;
+	height:0;
+   	font-size: 1px;
+   	line-height: 0px;
+}
+
+.cleaRight {
+	clear:right;
+	height:0;
+   	font-size: 1px;
+   	line-height: 0px;
+}
+
+.image-holder{
+	float:right;
+	width:171px;
+	height:128px;
+	background:#fff url(../img/loading.gif) 50% 50% no-repeat;
+	display:inline;
+}
+
+.rowSize
+{
+	width: 20%;	
+}
+
+#inactive a, #inactive
+{
+	color:#CCC;	
+}
+
+.inputSize input {
+	width: 20px;	
+}
